@@ -14,14 +14,6 @@ Site interativo para presentear sua mãe no Dia das Mães. Contém contador de t
 
 3. **Abra no navegador** — Dê um clique duplo no `index.html` para ver como ficou.
 
-## 🌍 Publicar no Vercel
-
-```bash
-npm i -g vercel
-vercel --prod
-```
-
-Ou acesse [vercel.com](https://vercel.com), crie uma conta, conecte seu repositório e faça o deploy como site estático.
 
 ## 📁 Estrutura
 
@@ -30,9 +22,9 @@ copia_anonimizada/
 ├── index.html       # Página principal (edite aqui)
 ├── style.css        # Estilos visuais
 ├── musica01.mp3     # Sua música (substitua)
-├── musica.mp4       # Vídeo/música extra (opcional)
 └── README.md
 ```
+Caso altere a musica, você pode alterar a letra tambem
 
 ## 🛠️ Feito com
 
