@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- 🔧 EDITAR: Troque "Minha Mãe" pelo nome da sua mãe (ex: "Para Sandra") -->
+  <title>Para Minha Mãe ❤️ — Feliz Dia das Mães</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- FUNDO -->
+<div class="background"></div>
+<div class="stars-layer" id="starsLayer"></div>
+
+<!-- =====================
+     LOADING
+==================== -->
+<div class="loader" id="loader">
+  <div class="loader-heart">🌸</div>
+  <!-- 🔧 EDITAR: Substitua "Mãe" pelo nome da sua mãe -->
+  <h1>Mãe</h1>
+  <p>Carregando amor, memórias e gratidão...</p>
+  <div class="loader-bar">
+    <div class="loader-bar-inner"></div>
+  </div>
+</div>
+
+<!-- =====================
+     HERO
+==================== -->
+<section class="hero">
+  <!-- 🔧 EDITAR: Ano em que você está fazendo a homenagem -->
+  <p class="hero-badge">✦ Dia das Mães · 2026 ✦</p>
+  <!-- 🔧 EDITAR: Substitua "Mãe" pelo nome da sua mãe -->
+  <h1>Mãe</h1>
+  <p class="hero-subtitle">Para a mulher mais incrível que já existiu</p>
+  <!-- 🔧 EDITAR: Troque "seu filho" pelo seu nome ou apelido -->
+  <p class="hero-from">De seu filho, com todo o amor do mundo</p>
+  <div class="hero-divider"></div>
+  <!-- 🔧 EDITAR: Data do Dia das Mães (ou data atual) -->
+  <p class="hero-date">10 · 05 · 2026</p>
+  <button class="hero-btn" onclick="document.getElementById('contador').scrollIntoView({behavior:'smooth'})">
+    Entrar ✦
+  </button>
+
+
+<!-- =====================
+     CONTADOR
+==================== -->
+<section id="contador" class="counter-section fade">
+
+  <div class="section-title">
+    <!-- 🔧 EDITAR: Texto do título do contador -->
+    <h2>Todo Esse Tempo ao Seu Lado</h2>
+    <div class="ornament">
+      <span></span>🌹<span></span>
+    </div>
+  </div>
+
+  <div class="counter-grid">
+    <div class="counter-box glass">
+      <h3 id="days">5.510</h3>
+      <p>Em Dias </p>
+    </div>
+    <div class="counter-box glass">
+      <h3 id="hours">132.240</h3>
+      <p>Em Horas</p>
+    </div>
+    <div class="counter-box glass">
+      <h3 id="minutes">7.934.400</h3>
+      <p>Em Minutos</p>
+    </div>
+    <div class="counter-box glass">
+      <h3 id="seconds">476.064.000</h3>
+      <p>Em Segundos</p>
+    </div>
+  </div>
+
+  <p class="counter-caption">
+    Desde o dia em que vim ao mundo,<br>
+    você nunca deixou de me amar por um único segundo.<br><br>
+    Cada momento da minha vida carrega um pedaço<br>
+    do seu amor, da sua força e do seu cuidado.
+  </p>
+
+</section>
+
+
+<!-- =====================
+     MEMÓRIAS / MENSAGENS
+==================== -->
+<section class="fade">
+
+  <div class="section-title">
+    <!-- 🔧 EDITAR: Título da seção de memórias -->
+    <h2>Coisas que Nunca Vou Esquecer</h2>
+    <div class="ornament">
+      <span></span>💕<span></span>
+    </div>
+  </div>
+
+  <!-- 🔧 EDITAR: As mensagens abaixo são exemplos. Troque pelas suas próprias memórias -->
+  <div class="messages-grid">
+    <div class="memory-card glass">
+      <span class="card-icon">🌹</span>
+      Mãe, você é a razão de eu nunca desistir de nada.
+    </div>
+    <div class="memory-card glass">
+      <span class="card-icon">🤍</span>
+      Seu abraço sempre foi meu lugar mais seguro no mundo.
+    </div>
+    <div class="memory-card glass">
+      <span class="card-icon">⭐</span>
+      Tudo que sou hoje começou com o seu amor.
+    </div>
+    <div class="memory-card glass">
+      <span class="card-icon">💐</span>
+      Você transformou dificuldades em amor todos os dias.
+    </div>
+    <div class="memory-card glass">
+      <span class="card-icon">🌙</span>
+      Obrigado por nunca desistir de mim, nem nos meus piores dias.
+    </div>
+    <div class="memory-card glass">
+      <span class="card-icon">✨</span>
+      Se eu pudesse escolher mil vezes, te escolheria como mãe em todas.
+    </div>
+    <div class="memory-card glass">
+      <span class="card-icon">☀️</span>
+      Seu sorriso sempre iluminou meus dias mais escuros.
+    </div>
+    <div class="memory-card glass">
+      <span class="card-icon">🦋</span>
+      Você acreditou em mim antes mesmo de eu acreditar em mim mesmo.
+    </div>
+    <div class="memory-card glass">
+      <span class="card-icon">💪</span>
+      Toda força que existe em mim nasceu da sua.
+    </div>
+    <div class="memory-card glass">
+      <span class="card-icon">❤️</span>
+      Você fez do amor uma coisa real e concreta pra mim.
+    </div>
+    <div class="memory-card glass">
+      <span class="card-icon">🌟</span>
+      Nunca existirá ninguém igual a você no mundo.
+    </div>
+    <div class="memory-card glass">
+      <span class="card-icon">🎁</span>
+      Cada sacrifício seu virou uma oportunidade na minha vida.
+    </div>
+  </div>
+
+</section>
+
+<!-- =====================
+     LINHA DO TEMPO
+==================== -->
+<section class="fade">
+
+  <div class="section-title">
+    <h2>Nossa História</h2>
+    <div class="ornament">
+      <span></span>🕊️<span></span>
+    </div>
+  </div>
+
+  <!--
+    ══════════════════════════════════════════
+    🔧 PERSONALIZE os eventos abaixo com datas e
+    histórias reais suas e da sua mãe!
+    ══════════════════════════════════════════
+  -->
+
+  <div class="timeline">
+
+    <div class="timeline-item fade-left">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card glass">
+        <p class="year">O Início</p>
+        <h4>O começo de tudo</h4>
+        <p>O dia em que você me trouxe ao mundo e a minha vida ganhou sentido por ter você ao meu lado.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item fade-right">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card glass">
+        <p class="year">Primeiros Anos</p>
+        <h4>Seus cuidados infinitos</h4>
+        <p>Cada noite acordada, cada curativo, cada troca de fralda kk que me fez sentir que estava tudo bem.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item fade-left">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card glass">
+        <p class="year">Crescendo</p>
+        <h4>Seu exemplo de força</h4>
+        <p>Estou cresendo, aprendendo com seu exemplo de força e derteminação está construindo quem sou eu no futuro...</p>
+      </div>
+    </div>
+
+    <div class="timeline-item fade-right">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card glass">
+        <p class="year">Hoje</p>
+        <h4>Meu maior orgulho</h4>
+        <p>Ser seu filho é o título mais bonito que tenhogado por tudo.</p>
+      </div>
+    </div>
+
+
+  </div>
+
+</section>
+
+<!-- =====================
+     PLAYER DE MÚSICA
+==================== -->
+<section class="fade">
+
+  <div class="section-title">
+    <h2>Nossa Música</h2>
+    <div class="ornament">
+      <span></span>🎵<span></span>
+    </div>
+  </div>
+
+  <!--
+    ══════════════════════════════════════════
+    🔧 EDITAR: Coloque o arquivo .mp3 na mesma
+    pasta e mude o src abaixo para o nome do
+    arquivo. Exemplo: src="musica.mp3"
+    ══════════════════════════════════════════
+  -->
+  <audio id="audio" src="musica01.mp3"></audio>
+
+  <div class="player-wrapper glass">.
+
+    <div class="player-song-info">
+      <!-- 🔧 EDITAR: Nome da música -->
+      <h3>Diferente Juntos</h3>
+      
+    </div>
+
+    <div class="visualizer" id="visualizer">
+      <!-- gerado pelo JS -->
+    </div>
+
+    <div class="player-controls">
+      <button class="play-btn" id="playBtn" title="Play / Pause">▶</button>
+    </div>
+
+    <div class="progress-container" id="progressContainer">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <div class="time-display">
+      <span id="timeNow">0:00</span>
+      <span id="timeTotal">0:00</span>
+    </div>
+
+    <p class="player-note">🎧 Aperte play e deixe essa música te lembrar de mim</p>
+
+  </div>
+
+</section>
+
+<!-- =====================
+     LETRA DA MÚSICA
+==================== -->
+<section class="fade">
+
+  <div class="section-title">
+    <h2>Cada Palavra Lembra Você</h2>
+    <div class="ornament">
+      <span></span>🎶<span></span>
+    </div>
+  </div>
+
+  <!--
+    ══════════════════════════════════════════
+    🔧 EDITAR: Coloque aqui trechos da letra
+    da música, ou frases que te lembram da
+    sua mãe.
+    ══════════════════════════════════════════
+  -->
+
+  <div class="karaoke-box glass">
+    <div class="lyrics-scroll">
+      <p>Eu tenho tanto pra lhe falar</p>
+      <p class="active">Eu tenho tanto pra lhe falar</p>
+      <p>Mas com palavras não sei dizer</p>
+      <p>Como é grande o meu amor por você</p>
+      <p>E não há nada pra comparar</p>
+      <p>Para poder lhe explicar</p>
+      <p>Como é grande o meu amor por você</p>
+      <p>Nem mesmo o céu nem as estrelas</p>
+      <p>Nem mesmo o mar e o infinito</p>
+      <p>Nada é maior que o meu amor</p>
+      <p>Nem mais bonito</p>
+      <p>Me desespero a procurar</p>
+      <p>Alguma forma de lhe falar</p>
+      <p>Como é grande o meu amor por você</p>
+      <p>Nunca se esqueça nem um segundo</p>
+      <p>Que eu tenho o amor maior do mundo</p>
+      <p>Como é grande o meu amor por você</p>
+      <p>Nunca se esqueça, nem um segundo</p>
+      <p>Que eu tenho o amor maior do mundo</p>
+      <p>Como é grande o meu amor por você</p>
+      <p>Mas como é grande o meu amor por você</p>
+    </div>
+  </div>
+
+</section>
+
+<!-- =====================
+     CARTA FINAL
+==================== -->
+<section class="fade">
+
+  <div class="section-title">
+    <h2>Uma Carta Para Você</h2>
+    <div class="ornament">
+      <span></span>✉️<span></span>
+    </div>
+  </div>
+
+  <div class="letter-container">
+    <div class="letter-box glass">
+
+      <!-- 🔧 EDITAR: Troque "Mãe" pelo nome da sua mãe -->
+      <h3>Mãe...</h3>
+
+      <!-- 🔧 EDITAR: Conteúdo da carta — personalize como quiser -->
+      <p>Eu não sei se algum dia vou conseguir colocar em palavras tudo o que você representa pra mim. Mas hoje eu queria tentar.</p>
+
+      <p>Desde pequeno, mesmo quando eu ainda não entendia nada da vida, você já fazia tudo por mim. Você abriu mão de muita coisa, enfrentou dificuldades, suportou dores que talvez eu nunca imagine — tudo pra me ver bem.</p>
+
+      <p>E mesmo quando o mundo parecia pesado demais, você continuava sorrindo pra mim. Continuava sendo forte. Continuava sendo luz.</p>
+
+      <p>Cada conselho seu, cada abraço, cada bronca, cada noite acordada, cada preocupação — tudo isso construiu quem eu sou hoje.</p>
+
+      <p>Você nunca foi apenas minha mãe. Você sempre foi meu porto seguro, minha proteção, minha inspiração.</p>
+
+      <p>Eu tenho orgulho de ser seu filho. Orgulho da mulher incrível que você é. Orgulho da força que existe dentro de você.</p>
+
+      <p>E mesmo que eu ainda tenha muito pra conquistar, uma das coisas que mais quero na vida é conseguir te dar orgulho, retribuir tudo o que você fez por mim e te fazer feliz.</p>
+
+      <p>Obrigado por nunca desistir de mim. Obrigado por me amar até nos meus piores dias. Obrigado por sempre estar aqui.</p>
+
+      <p>Se hoje eu consigo sonhar, acreditar, continuar lutando — é porque você esteve comigo desde o começo.</p>
+
+      <p><strong>Feliz Dia das Mães. Eu te amo infinitamente.</strong></p>
+
+      <!-- 🔧 EDITAR: Coloque seu nome na assinatura -->
+      <div class="signature">Seu filho ❤️</div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- =====================
+     FOOTER / CRÉDITOS
+==================== -->
+<footer>
+
+  <span class="footer-heart-big">🌸</span>
+
+  <!-- 🔧 EDITAR: Frase ou citação especial -->
+  <p class="footer-msg">
+    "O amor de uma mãe é a força mais poderosa do universo."
+  </p>
+
+  <div class="footer-divider"></div>
+
+  <!--
+    ══════════════════════════════════════════════════════════
+    🔧 EDITAR: Bloco de créditos — coloque seu nome
+    ══════════════════════════════════════════════════════════
+  -->
+  <div class="credit-block glass">
+    <span class="credit-label">✦ Feito por ✦</span>
+    <!-- 🔧 EDITAR: Seu nome aqui -->
+    <span class="credit-main">Feito com muito carinho</span>
+    <span class="credit-sub">
+      Este site foi feito totalmente à mão,<br>
+      especialmente para você (Demorei 2 dias mais valeu a pena cada segundo!).
+    </span>
+    <span class="credit-emoji">🥰</span>
+  </div>
+
+  <!-- 🔧 EDITAR: Nome e ano no rodapé -->
+  <p class="footer-copy">Para Minha Mãe · Dia das Mães 2026</p>
+
+</footer>
+
+<!-- =========================
+     JAVASCRIPT
+========================= -->
+<script>
+
+/* ── LOADER ── */
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    const loader = document.getElementById('loader');
+    loader.style.opacity = '0';
+    loader.style.pointerEvents = 'none';
+    setTimeout(() => loader.style.display = 'none', 1200);
+  }, 2800);
+});
+
+/* ── CURSOR ── */
+const cursor    = document.getElementById('cursor');
+const cursorDot = document.getElementById('cursorDot');
+let mx = 0, my = 0, cx = 0, cy = 0;
+
+document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
+
+(function animCursor() {
+  cx += (mx - cx) * 0.12;
+  cy += (my - cy) * 0.12;
+  cursor.style.left    = cx + 'px';
+  cursor.style.top     = cy + 'px';
+  cursorDot.style.left = mx + 'px';
+  cursorDot.style.top  = my + 'px';
+  requestAnimationFrame(animCursor);
+})();
+
+/* ── ESTRELAS ── */
+const starsLayer = document.getElementById('starsLayer');
+for (let i = 0; i < 120; i++) {
+  const s = document.createElement('div');
+  s.classList.add('star');
+  const size = Math.random() * 2.5 + 0.5;
+  s.style.cssText = `
+    left:${Math.random()*100}%;
+    top:${Math.random()*100}%;
+    width:${size}px;
+    height:${size}px;
+    --d:${2 + Math.random()*4}s;
+    animation-delay:${Math.random()*4}s;
+  `;
+  starsLayer.appendChild(s);
+}
+
+/* ── PÉTALAS ── */
+const petals = ['🌸','🌺','🌷','💮','🌹','✿'];
+function createPetal() {
+  const p = document.createElement('div');
+  p.classList.add('petal');
+  p.innerHTML = petals[Math.floor(Math.random() * petals.length)];
+  p.style.left = Math.random() * 100 + 'vw';
+  const dur = 7 + Math.random() * 8;
+  p.style.animationDuration = dur + 's';
+  p.style.fontSize = (12 + Math.random() * 20) + 'px';
+  p.style.animationDelay = (Math.random() * 3) + 's';
+  document.body.appendChild(p);
+  setTimeout(() => p.remove(), (dur + 3) * 1000);
+}
+setInterval(createPetal, 600);
+
+/* ── CONTADOR (desde nascimento) ── */
+const birthDate = new Date('2000-01-01T00:00:00'); // Substitua pela data de nascimento real
+function updateCounter() {
+  const diff = Date.now() - birthDate;
+  document.getElementById('days').textContent    = Math.floor(diff / 86400000).toLocaleString('pt-BR');
+  document.getElementById('hours').textContent   = Math.floor(diff / 3600000) % 24;
+  document.getElementById('minutes').textContent = Math.floor(diff / 60000)   % 60;
+  document.getElementById('seconds').textContent = Math.floor(diff / 1000)    % 60;
+}
+setInterval(updateCounter, 1000);
+updateCounter();
+
+/* ── PLAYER ── */
+const audio      = document.getElementById('audio');
+const playBtn    = document.getElementById('playBtn');
+const bar        = document.getElementById('progressBar');
+const timeNow    = document.getElementById('timeNow');
+const timeTotal  = document.getElementById('timeTotal');
+const progressC  = document.getElementById('progressContainer');
+let playing      = false;
+
+function fmt(s) {
+  const m = Math.floor(s / 60);
+  const sec = Math.floor(s % 60);
+  return `${m}:${sec < 10 ? '0' : ''}${sec}`;
+}
+
+playBtn.addEventListener('click', () => {
+  const lyricsScroll = document.querySelector('.lyrics-scroll');
+  if (!playing) { 
+    audio.play(); 
+    playBtn.textContent = '❚❚'; 
+    playing = true; 
+    lyricsScroll.classList.add('animate');
+    lyricsScroll.style.animationPlayState = 'running';
+  } else { 
+    audio.pause(); 
+    playBtn.textContent = '▶';  
+    playing = false; 
+    lyricsScroll.style.animationPlayState = 'paused';
+  }
+  document.querySelectorAll('.bar').forEach(b => b.classList.toggle('paused', !playing));
+});
+
+audio.addEventListener('timeupdate', () => {
+  if (!audio.duration) return;
+  bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
+  timeNow.textContent = fmt(audio.currentTime);
+});
+
+audio.addEventListener('loadedmetadata', () => {
+  timeTotal.textContent = fmt(audio.duration);
+});
+
+progressC.addEventListener('click', e => {
+  if (!audio.duration) return;
+  const rect = progressC.getBoundingClientRect();
+  audio.currentTime = ((e.clientX - rect.left) / rect.width) * audio.duration;
+});
+
+/* ── VISUALIZER ── */
+const viz = document.getElementById('visualizer');
+const heights = [8,14,20,28,36,32,26,18,12,8,14,22,30,24,16,10,20,28,36,32,24,16,10,8,14];
+heights.forEach((h, i) => {
+  const b = document.createElement('div');
+  b.classList.add('bar', 'paused');
+  b.style.cssText = `--h:${h}px; --spd:${0.4 + Math.random() * 0.5}s; animation-delay:${i * 0.04}s;`;
+  viz.appendChild(b);
+});
+
+/* ── FADE ON SCROLL ── */
+const fadeEls = document.querySelectorAll('.fade, .fade-left, .fade-right');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) entry.target.classList.add('show');
+  });
+}, { threshold: 0.12 });
+fadeEls.forEach(el => observer.observe(el));
+
+</script>
+
+</body>
+</html>
